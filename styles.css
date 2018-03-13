@@ -1,0 +1,49 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #30dca6;
+}
+
+.shareable-section,
+.unsupported-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.share-icon-container,
+.unsupported-icon-container {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  background-color: #fcf3af;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.share-icon,
+.unsupported-icon {
+  height: 80px;
+  width: 80px;
+}
+
+.share-icon {
+  margin-right: 10px;
+}
+
+.share-text,
+.unsupported-text {
+  font-family: system-ui, "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  text-align: center;
+  font-style: italic;
+}

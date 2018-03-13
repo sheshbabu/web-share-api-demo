@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Web Share API demo</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#30dca6">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/script.js" defer></script>
+</head>
+
+<body>
+  <div class="shareable-section">
+    <div class="share-icon-container" onclick="share()">
+      <img class="share-icon" src="/assets/ic_share_black_48px.svg" />
+    </div>
+    <p class="share-text">Tap the share button above</p>
+  </div>
+  <div class="unsupported-section">
+    <div class="unsupported-icon-container" onclick="share()">
+      <img class="unsupported-icon" src="/assets/ic_sentiment_dissatisfied_black_48px.svg" />
+    </div>
+    <p class="unsupported-text">Web Share API is unavailable in this browser.
+      <br/> Refer
+      <a href="https://caniuse.com/#feat=web-share" target="_blank">this</a> list for all supported browsers.</p>
+  </div>
+</body>
+
+</html>
